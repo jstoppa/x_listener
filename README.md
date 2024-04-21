@@ -25,4 +25,3 @@ npm run build
 
 5. To display the list of your followers and followings, open the chrome extension from the toolbar
    ![alt text](images/installation2.png 'Title')
-   installation2
