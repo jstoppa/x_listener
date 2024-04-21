@@ -1,0 +1,9 @@
+{
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 4,
+    "cSpell.words": [
+        "upserting"
+    ],
+    "prettier.singleQuote": true,
+    "editor.formatOnSave": true
+}

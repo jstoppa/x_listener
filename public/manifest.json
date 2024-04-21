@@ -1,0 +1,25 @@
+{
+	"name": "X Listener",
+	"description": "X Listener intercepts X API calls and stores them in IndexedDB",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["activeTab", "scripting", "nativeMessaging"],
+	"content_scripts": [
+		{
+			"matches": ["*://twitter.com/*"],
+			"run_at": "document_start",
+			"js": ["content_script.js"]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": ["web_accessible.js"],
+			"matches": ["*://twitter.com/*"]
+		}
+	],
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "icon.png",
+		"permissions": "activeTab"
+	}
+}
