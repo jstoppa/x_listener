@@ -5,14 +5,12 @@ A chrome extension prototype to intercept X (formerly Twitter) API calls and sto
 ## Installation
 
 1. Run npm install
-   bash
 
 ```
 npm install
 ```
 
 2. Build package
-   bash
 
 ```
 npm run build
